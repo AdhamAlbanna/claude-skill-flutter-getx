@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <rect width="760" height="330" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="380" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#111827">One screen = two files. One network layer.</text>
+
+  <rect x="30" y="70" width="170" height="86" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+  <text x="115" y="100" text-anchor="middle" font-weight="700" fill="#1e40af">login.dart</text>
+  <text x="115" y="122" text-anchor="middle" fill="#374151">UI only</text>
+  <text x="115" y="141" text-anchor="middle" fill="#6b7280" font-size="12">GetBuilder + Custom* widgets</text>
+
+  <rect x="295" y="70" width="170" height="86" rx="10" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="380" y="100" text-anchor="middle" font-weight="700" fill="#166534">login_controller.dart</text>
+  <text x="380" y="122" text-anchor="middle" fill="#374151">Logic only</text>
+  <text x="380" y="141" text-anchor="middle" fill="#6b7280" font-size="12">validate, call Api, update()</text>
+
+  <rect x="560" y="70" width="170" height="86" rx="10" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="645" y="100" text-anchor="middle" font-weight="700" fill="#9a3412">Api.makeApiRequest</text>
+  <text x="645" y="122" text-anchor="middle" fill="#374151">The only HTTP code</text>
+  <text x="645" y="141" text-anchor="middle" fill="#6b7280" font-size="12">auth, timeout, dialogs, errors</text>
+
+  <line x1="200" y1="105" x2="293" y2="105" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+  <text x="247" y="97" text-anchor="middle" font-size="12" fill="#6b7280">onPressed</text>
+  <line x1="465" y1="105" x2="558" y2="105" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+  <text x="512" y="97" text-anchor="middle" font-size="12" fill="#6b7280">request</text>
+  <line x1="558" y1="130" x2="467" y2="130" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+  <text x="512" y="148" text-anchor="middle" font-size="12" fill="#6b7280">{success, ...}</text>
+  <line x1="293" y1="130" x2="202" y2="130" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+  <text x="247" y="148" text-anchor="middle" font-size="12" fill="#6b7280">update()</text>
+
+  <rect x="30" y="190" width="700" height="112" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="48" y="216" font-weight="700" fill="#111827">Single sources of truth</text>
+  <text x="48" y="242" fill="#374151">routes.dart  ·  constants/approutes.dart  ·  Network/api_links.dart  ·  localization/mylocalization.dart</text>
+  <text x="48" y="266" fill="#374151">constants/appcolor.dart  ·  helper/functions/user_info.dart (UserSession)  ·  helper/widgets/Custom*</text>
+  <text x="48" y="288" fill="#6b7280" font-size="12">The auditor checks that these stay consistent: routes match GetPages, ar and en keys match.</text>
+</svg>
