@@ -1,0 +1,8 @@
+{
+  "name": "flutter-getx-architecture",
+  "description": "A Claude skill for building and reviewing Flutter apps with a strict, scalable GetX architecture.",
+  "version": "0.1.0",
+  "author": { "name": "Adham Albanna" },
+  "homepage": "https://github.com/AdhamAlbanna/claude-skill-flutter-getx",
+  "license": "MIT"
+}
